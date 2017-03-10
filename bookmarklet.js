@@ -132,7 +132,10 @@ javascript:(function()
   
   ';
   
-  var $style = $('<style>' + css + '</style>');
-      $style.appendTo('head');
+  var style = document.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = css;
+    
+document.head.appendChild(style);
  
 }())
