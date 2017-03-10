@@ -38,12 +38,13 @@ javascript:(function()
     border-bottom:none;
   }
   
-  blockquote
+  .markdown-body blockquote
   {
     padding: 1rem 1.25rem;
     color: inherit;
     position: relative;
     margin-top: 2rem;
+    background: #eee;
   }
   
   /* hide unneccessary elements */
