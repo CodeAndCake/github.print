@@ -42,10 +42,8 @@ javascript:(function()
   {
     padding: 1rem 1.25rem;
     color: inherit;
-    /* border-left: 4px solid rgb(255, 143, 4); */
     position: relative;
     margin-top: 2rem;
-    /* background: rgba(255, 143, 4, 0.2); */
   }
   
   /* hide unneccessary elements */
@@ -57,7 +55,9 @@ javascript:(function()
   .boxed-group>h3, 
   .site-footer, 
   .file-navigation, 
-  .file-header
+  .file-header,
+  .overall-summary,
+  .js-repo-meta-container  
   {
     display:none;
   }
