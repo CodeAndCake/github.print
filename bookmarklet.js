@@ -1,59 +1,52 @@
 javascript:(function()
-{
-
-  /* general rules for the "body" */
-  $('#readme .markdown-body, .file')
-  .css(
-  {
-    'border':'none', 
-    'padding': '0 8rem'
-  });
-
-  /* images */
-  $('img')
-  .css(
-  {
-    'max-width': '100%',
-    'vertical-align': 'middle'
-  });
-
-  /* tables */
-  $('th, td', '.markdown-body table tr')
-  .css(
-  {
-    'padding':'1rem',
-    'vertical-align': 'top'
-  });
-
-  /* TYPOGRAPHY */
-  $('#readme .markdown-body, .file')
-  .css(
-  {
-    'font-family':'Lekton', 
-    '-webkit-font-smoothing': 'antialiased'
-  });
-
-  /* headings */
-  $('h1, h2', '.markdown-body')
-  .css(
-  {
-    'border-bottom':'none'
-  });
-  
-  
-  $('blockquote')
-  .css(
-  {
-    'padding': '1rem 1.25rem',
-    'color': 'inherit',
-    'border-left': '4px solid rgb(255, 143, 4)',
-    'position': 'relative',
-    'margin-top': '2rem',
-    'background': 'rgba(255, 143, 4, 0.2)'
-  });
-  
+{ 
   var css =    
   '
+  
+  /* general rules for the "body" */
+  #readme .markdown-body,
+  .file
+  {
+    border: none; 
+    padding: 0 8rem;
+  }
+  
+  /* images */
+  img  
+  {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  /* tables */
+  th, td, .markdown-body table tr
+  {
+    padding: 1rem;
+    vertical-align: top;
+  }
+  
+  /* TYPOGRAPHY */
+  #readme .markdown-body, .file
+  {
+    font-family:Lekton;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* headings */
+  h1, h2, .markdown-body
+  {
+    border-bottom:none;
+  }
+  
+  blockquote
+  {
+    padding: 1rem 1.25rem;
+    color: inherit;
+    /* border-left: 4px solid rgb(255, 143, 4); */
+    position: relative;
+    margin-top: 2rem;
+    /* background: rgba(255, 143, 4, 0.2); */
+  }
   
   /* hide unneccessary elements */
   .header, 
@@ -87,7 +80,7 @@ javascript:(function()
   }
 
   /* Your turn! */
-  blockquote:before 
+  /*blockquote:before 
   {
     content: "Your turn";
     position: absolute;
@@ -96,7 +89,7 @@ javascript:(function()
     left: -.3rem;
     font-size: 83%;
     font-weight: bold;
-  }
+  }*/
   
   .markdown-body pre,
   .markdown-body .highlight pre,
