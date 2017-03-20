@@ -8,7 +8,6 @@ javascript:(function()
   .file
   {
     border: none; 
-    padding: 0 8rem;
   }
   
   /* images */
@@ -116,11 +115,6 @@ javascript:(function()
     padding: .3em .1em;
   }
 
-  article.markdown-body.entry-content
-  {
-    padding: 0px 8rem;
-  }
-
   .markdown-body h1,
   .markdown-body h2,
   .markdown-body h3,
@@ -129,6 +123,7 @@ javascript:(function()
   {
     font-family: "Roboto Mono";
     margin-top: 4rem; 
+    border-bottom: none;
   }
   
   
