@@ -28,7 +28,7 @@ javascript:(function()
   /* TYPOGRAPHY */
   #readme .markdown-body, .file
   {
-    font-family:Lekton;
+    font-family:Roboto;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -99,7 +99,7 @@ javascript:(function()
     word-break: break-word;
     background-color: rgb(255, 249, 234);
     border: 1px solid rgba(255, 143, 4, .25);
-    font-family: "Source Code Pro";
+    font-family: "Roboto Mono";
     font-weight: 500;
   }
   
@@ -127,6 +127,7 @@ javascript:(function()
   .markdown-body h4,
   .markdown-body h5
   {
+    font-family: "Roboto Mono";
     margin-top: 4rem; 
   }
   
