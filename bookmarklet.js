@@ -47,13 +47,13 @@ javascript:(function()
   }
   
   /* hide unneccessary elements */
-  .header, 
+  .header, header, 
   .pagehead, 
   .repository-sidebar, 
   .commit-tease, 
   .file-wrap, 
   .boxed-group>h3, 
-  .site-footer, 
+  .site-footer, .footer,
   .file-navigation, 
   .file-header,
   .overall-summary,
@@ -96,10 +96,10 @@ javascript:(function()
   .markdown-body code
   {
     word-break: break-word;
-    background-color: rgb(255, 249, 234);
-    border: 1px solid rgba(255, 143, 4, .25);
+    background-color: #ddd;
+    border: 1px solid #ccc;
     font-family: "Roboto Mono";
-    font-weight: 500;
+    font-weight: 700;
   }
   
   .markdown-body pre,
@@ -112,7 +112,7 @@ javascript:(function()
   
   .markdown-body code
   {
-    padding: .3em .1em;
+    padding: .18em .05em;
   }
 
   .markdown-body h1,
